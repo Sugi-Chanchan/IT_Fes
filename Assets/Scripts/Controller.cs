@@ -17,7 +17,7 @@ public class Controller : MonoBehaviour
     // Update is called once per frame
     public void Update()
     {
-        transform.Translate(0, 0, 0.4f);
+        transform.Translate(0, 0, 0.8f);
         if (Input.GetKey(KeyCode.UpArrow)&&transform.position.y<=20)
         {
             transform.Translate(up,Space.World);

@@ -13,7 +13,7 @@ public class BulletShot : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        transform.Translate(0, 0, 0.6f,Space.World);
+        transform.Translate(0, 0, 1f,Space.World);
         if (transform.position.z >= sub.transform.position.z+61|transform.position.z<=sub.transform.position.z-11|transform.position.y>33|transform.position.y<=-30
             )
         {

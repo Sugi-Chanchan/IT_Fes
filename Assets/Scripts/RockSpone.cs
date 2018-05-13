@@ -10,7 +10,7 @@ public class RockSpone : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         InvokeRepeating("Spone", 0.1f, 0.06f);
-        InvokeRepeating("BigSpone", 0.1f, 0.06f);
+        InvokeRepeating("BigSpone", 0.1f, 0.07f);
     }
 
 	
