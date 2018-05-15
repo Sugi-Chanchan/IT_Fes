@@ -10,7 +10,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>
     </RootNamespace>
-    <ProjectGuid>{D3CC1ABB-1E96-7450-6E86-A58A7B9A9F95}</ProjectGuid>
+    <ProjectGuid>{96E878FB-2EBE-57F1-0946-48AB3A43B1D7}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -77,10 +77,10 @@
     <Compile Include="Assets\Sample\Scripts\Tester.cs" />
     <Compile Include="Assets\Sample\Scripts\Variables.cs" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>D:/unity/Unity2018/Mygame/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>D:/unity/Unity2018/jack_IT-fes/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>D:/unity/Unity2018/Mygame/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>D:/unity/Unity2018/jack_IT-fes/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>D:/unity/Unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
