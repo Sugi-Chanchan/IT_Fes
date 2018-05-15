@@ -9,8 +9,8 @@ public class RockSpone : MonoBehaviour {
     public GameObject spon;
 	// Use this for initialization
 	void Start () {
-        InvokeRepeating("Spone", 0.1f, 0.06f);
-        InvokeRepeating("BigSpone", 0.1f, 0.07f);
+        InvokeRepeating("Spone", 0.1f, 0.03f);
+        InvokeRepeating("BigSpone", 0.1f, 0.04f);
     }
 
 	
@@ -20,7 +20,7 @@ public class RockSpone : MonoBehaviour {
 	}
     void Spone()
     {
-        Instantiate(rock,new Vector3(-20+40*Random.value, -20+40 * Random.value,spon.transform.position.z-1),Quaternion.identity);
+        Instantiate(rock,new Vector3(-20+40*Random.value, -20+40 * Random.value,spon.transform.position.z-10),Quaternion.identity);
        
     }
     void BigSpone()

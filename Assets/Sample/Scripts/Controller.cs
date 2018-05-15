@@ -17,22 +17,22 @@ public class Controller : MonoBehaviour
     // Update is called once per frame
     public void Update()
     {
-        transform.Translate(0, 0, 0.8f);
+        transform.Translate(0, 0, 0.7f*Time.deltaTime*50);
         if (Input.GetKey(KeyCode.UpArrow)&&transform.position.y<=20)
         {
-            transform.Translate(up,Space.World);
+            transform.Translate(up*Time.deltaTime*30,Space.World);
         }
         if (Input.GetKey(KeyCode.DownArrow)&& transform.position.y >= -20)
         {
-            transform.Translate(down,Space.World);
+            transform.Translate(down * Time.deltaTime*30, Space.World);
         }
         if (Input.GetKey(KeyCode.RightArrow) && transform.position.x <= 19.8f)
         {
-            transform.Translate(right,Space.World);
+            transform.Translate(right * Time.deltaTime*30, Space.World);
         }
         if (Input.GetKey(KeyCode.LeftArrow) && transform.position.x >= -19.8f)
         {
-            transform.Translate(left,Space.World);
+            transform.Translate(left * Time.deltaTime*30, Space.World);
         }
         if (Input.GetKeyDown(KeyCode.F))
         {

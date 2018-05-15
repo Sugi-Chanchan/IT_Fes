@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Damage : MonoBehaviour {
+   
 
 	// Use this for initialization
 	void Start () {
@@ -15,6 +16,8 @@ public class Damage : MonoBehaviour {
 	}
     void OnTriggerEnter(Collider other)
     {
-        Destroy(gameObject);
+      
+            Destroy(gameObject);
+        
     }
 }

@@ -562,7 +562,7 @@ Prefab:
         type: 2}
       propertyPath: spon
       value: 
-      objectReference: {fileID: 1081490900}
+      objectReference: {fileID: 686293471}
     - target: {fileID: 114692555007289176, guid: 6e84ebc358492ee43b7c41d0465f76e8,
         type: 2}
       propertyPath: parent
@@ -572,10 +572,14 @@ Prefab:
         type: 2}
       propertyPath: spon
       value: 
-      objectReference: {fileID: 1081490900}
+      objectReference: {fileID: 686293471}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6e84ebc358492ee43b7c41d0465f76e8, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &686293471 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100002, guid: 36652d74a0bdffb449862eb0300646a6, type: 3}
+  m_PrefabInternal: {fileID: 1786667324}
 --- !u!1 &754012976
 GameObject:
   m_ObjectHideFlags: 0
@@ -672,11 +676,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!1 &1081490900 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1314079983654040, guid: 6fb791128498a914489851c2b65c77a4,
-    type: 2}
-  m_PrefabInternal: {fileID: 1678684543}
 --- !u!1 &1085846700
 GameObject:
   m_ObjectHideFlags: 0
@@ -989,7 +988,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 36652d74a0bdffb449862eb0300646a6, type: 3}
       propertyPath: m_Name
-      value: Sphere
+      value: Sphere1
       objectReference: {fileID: 0}
     - target: {fileID: 2000000, guid: 36652d74a0bdffb449862eb0300646a6, type: 3}
       propertyPath: m_Enabled
@@ -1002,6 +1001,18 @@ Prefab:
     - target: {fileID: 2300000, guid: 36652d74a0bdffb449862eb0300646a6, type: 3}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 36652d74a0bdffb449862eb0300646a6, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 36652d74a0bdffb449862eb0300646a6, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 36652d74a0bdffb449862eb0300646a6, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 200
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 36652d74a0bdffb449862eb0300646a6, type: 3}

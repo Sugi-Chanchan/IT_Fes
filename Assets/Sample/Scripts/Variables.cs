@@ -7,5 +7,5 @@ public class Variables : MonoBehaviour {
     public static int bulletnumber;
     public static int heavybulletcountor = 10;
     public static int testcounter;
-    public static int enemyhp;
+  
 }

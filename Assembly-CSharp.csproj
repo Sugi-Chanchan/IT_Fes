@@ -59,23 +59,23 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\BigRock.cs" />
-    <Compile Include="Assets\Scripts\BulletCrash.cs" />
-    <Compile Include="Assets\Scripts\BulletShot.cs" />
-    <Compile Include="Assets\Scripts\CameraMove.cs" />
-    <Compile Include="Assets\Scripts\ChargeBullet.cs" />
-    <Compile Include="Assets\Scripts\Controller.cs" />
-    <Compile Include="Assets\Scripts\Crash.cs" />
-    <Compile Include="Assets\Scripts\Damage.cs" />
-    <Compile Include="Assets\Scripts\Enemy.cs" />
-    <Compile Include="Assets\Scripts\FollowCamera.cs" />
-    <Compile Include="Assets\Scripts\Ray_hit.cs" />
-    <Compile Include="Assets\Scripts\Rock.cs" />
-    <Compile Include="Assets\Scripts\RockNew.cs" />
-    <Compile Include="Assets\Scripts\RockSpone.cs" />
-    <Compile Include="Assets\Scripts\Rolling.cs" />
-    <Compile Include="Assets\Scripts\Tester.cs" />
-    <Compile Include="Assets\Scripts\Variables.cs" />
+    <Compile Include="Assets\Sample\Scripts\BigRock.cs" />
+    <Compile Include="Assets\Sample\Scripts\BulletCrash.cs" />
+    <Compile Include="Assets\Sample\Scripts\BulletShot.cs" />
+    <Compile Include="Assets\Sample\Scripts\CameraMove.cs" />
+    <Compile Include="Assets\Sample\Scripts\ChargeBullet.cs" />
+    <Compile Include="Assets\Sample\Scripts\Controller.cs" />
+    <Compile Include="Assets\Sample\Scripts\Crash.cs" />
+    <Compile Include="Assets\Sample\Scripts\Damage.cs" />
+    <Compile Include="Assets\Sample\Scripts\Enemy.cs" />
+    <Compile Include="Assets\Sample\Scripts\FollowCamera.cs" />
+    <Compile Include="Assets\Sample\Scripts\Ray_hit.cs" />
+    <Compile Include="Assets\Sample\Scripts\Rock.cs" />
+    <Compile Include="Assets\Sample\Scripts\RockNew.cs" />
+    <Compile Include="Assets\Sample\Scripts\RockSpone.cs" />
+    <Compile Include="Assets\Sample\Scripts\Rolling.cs" />
+    <Compile Include="Assets\Sample\Scripts\Tester.cs" />
+    <Compile Include="Assets\Sample\Scripts\Variables.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>D:/unity/Unity2018/Mygame/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>

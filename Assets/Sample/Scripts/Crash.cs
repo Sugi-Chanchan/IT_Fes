@@ -9,7 +9,6 @@ public class BulletCrash : MonoBehaviour {
     public GameObject enemy;
    // Use this for initialization
 	void Start () {
-        Variables.enemyhp = 100;
        
     }
 	
@@ -19,12 +18,14 @@ public class BulletCrash : MonoBehaviour {
     }
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.name == "Rock(Clone)" | other.gameObject.name == "BigRock(Clone)")
+        if (other.gameObject.tag=="Obstacle")
         {
-        Variables.testcounter++;
             Destroy(other.gameObject);
         }
-        
+        if (other.gameObject.tag == "Enemy")
+        {
+            other.GetComponent<Enemy>().hp-=1;
+        }
 
     }
 }

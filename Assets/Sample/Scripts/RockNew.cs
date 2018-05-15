@@ -5,6 +5,7 @@ using UnityEngine;
 public class RockNew : MonoBehaviour {
     GameObject sub;
 
+
     private void Start()
     {
        sub = GameObject.Find("Cube");
@@ -17,4 +18,5 @@ public class RockNew : MonoBehaviour {
             Destroy(gameObject);
         }
 	}
+   
 }
