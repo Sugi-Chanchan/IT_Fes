@@ -574,6 +574,24 @@ Prefab:
       propertyPath: spon
       value: 
       objectReference: {fileID: 862978126}
+    - target: {fileID: 114645413987784166, guid: 6e84ebc358492ee43b7c41d0465f76e8,
+        type: 2}
+      propertyPath: largeblock
+      value: 
+      objectReference: {fileID: 1274344670776890, guid: f0aae84d0a9f1144e91ee7428f129a0a,
+        type: 2}
+    - target: {fileID: 114645413987784166, guid: 6e84ebc358492ee43b7c41d0465f76e8,
+        type: 2}
+      propertyPath: naiagara
+      value: 
+      objectReference: {fileID: 1600225974035606, guid: 3f95abcf85798444b9d67276cf7b1d95,
+        type: 2}
+    - target: {fileID: 114645413987784166, guid: 6e84ebc358492ee43b7c41d0465f76e8,
+        type: 2}
+      propertyPath: rock
+      value: 
+      objectReference: {fileID: 1266226372425278, guid: 8f299329de7492348b906dcd19bf2fb3,
+        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6e84ebc358492ee43b7c41d0465f76e8, type: 2}
   m_IsPrefabParent: 0

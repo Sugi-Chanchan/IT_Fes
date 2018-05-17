@@ -19,6 +19,6 @@ public class FollowCamera : MonoBehaviour {
         Vector3 vec = parent.transform.position;
         vec.z -= 5;
         cmr.transform.position=vec;
-        spon.transform.position = new Vector3(0,0,parent.transform.position.z+60);
+        spon.transform.position = new Vector3(0,0,parent.transform.position.z+90);
     }
 }
