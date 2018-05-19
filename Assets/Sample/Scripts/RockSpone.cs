@@ -9,21 +9,26 @@ public class RockSpone : MonoBehaviour {
     public GameObject largeblock;
     Vector3 vec;
     public GameObject spon;
-	// Use this for initialization
+
+
 	void Start () {
+        //0.03秒に一回　0.1秒間メソッド（処理）"N"を実行する操作を繰り返す
         InvokeRepeating("Spone", 0.1f, 0.03f);
         InvokeRepeating("BigSpone", 0.1f, 0.04f);
         InvokeRepeating("LargeSpone", 0.1f, 15f);
+
+        //10秒後にメソッド（処理）"N"を実行する
         Invoke("N", 10f);
     }
 
 	
-	// Update is called once per frame
+
 	void Update () {
 
 	}
     void Spone()
     {
+        //Random.valueは0～1のランダムな値をかえしてくれる
         Instantiate(rock,new Vector3(-20+40*Random.value, -20+40 * Random.value,spon.transform.position.z-10),Quaternion.identity);
        
     }
@@ -33,6 +38,7 @@ public class RockSpone : MonoBehaviour {
     }
     void N()
     {
+        
         InvokeRepeating("Naiagara", 0.1f, 0.1f);
     }
     void Naiagara()

@@ -53,7 +53,8 @@ public class Controller : MonoBehaviour
             CancelInvoke();
         }
         if (Input.GetKeyDown(KeyCode.G))
-        {//下の方にに書いてある"
+        {
+            //下の方にに書いてある"Heaavyburst"という名前のメソッド（処理）を実行する
             Heavyburst();
 
             
@@ -64,7 +65,9 @@ public class Controller : MonoBehaviour
     void Burst()
     {
         if (Variables.bulletnumber > 0)
-        {
+        {/*物体を画面上に出現させる
+            [instantiate(出現させる物体{これはスクリプトの最初で宣言が必要｝, 出現させたい座標, 回転の向き｛これはよくわかんないけど"Quaternion.identity"て書けばOK｝）
+            transform.position.xはこのスクリプトが入っている物体のx座標を出力する*/
             Instantiate(Bullet,new Vector3(transform.position.x,transform.position.y,transform.position.z+2), Quaternion.identity);
             Variables.bulletnumber -= 1;
         }

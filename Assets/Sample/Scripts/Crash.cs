@@ -16,6 +16,7 @@ public class BulletCrash : MonoBehaviour {
 	void Update () {
       
     }
+    //下のメソッドは衝突の際に実行する。ぶつかった相手はotherという名前になる
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag=="Obstacle")

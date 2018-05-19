@@ -10,12 +10,14 @@ public class FollowCamera : MonoBehaviour {
 
     private void Start()
     {
+        //Findはゲームで起動している物体のうち指定された名前のものを探してくれる
     cmr = GameObject.Find("Main Camera");
 
     }
 
     // Update is called once per frame
     void Update () {
+        //スクリプトを入れた物体でないものの位置情報が欲しいときは　"スクリプトの最初で宣言した名前”.transform.position
         Vector3 vec = parent.transform.position;
         vec.z -= 5;
         cmr.transform.position=vec;
