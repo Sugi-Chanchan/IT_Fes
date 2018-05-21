@@ -17,9 +17,9 @@ public class FollowCamera : MonoBehaviour {
 
     // Update is called once per frame
     void Update () {
-        //スクリプトを入れた物体でないものの位置情報が欲しいときは　"スクリプトの最初で宣言した名前”.transform.position
+        //スクリプトを入れた物体でないものの位置情報が欲しいときは　"スクリプトの最初で宣言した名前”+".transform.position"
         Vector3 vec = parent.transform.position;
-        vec.z -= 5;
+        vec.z -= 15;
         cmr.transform.position=vec;
         spon.transform.position = new Vector3(0,0,parent.transform.position.z+90);
     }
