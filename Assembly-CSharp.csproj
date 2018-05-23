@@ -77,13 +77,13 @@
     <Compile Include="Assets\iroiro\Scripts\RockNew.cs" />
     <Compile Include="Assets\iroiro\Scripts\RockSpone.cs" />
     <Compile Include="Assets\iroiro\Scripts\Rolling.cs" />
+    <Compile Include="Assets\iroiro\Scripts\Tekinotama.cs" />
     <Compile Include="Assets\iroiro\Scripts\Tester.cs" />
     <Compile Include="Assets\iroiro\Scripts\Variables.cs" />
     <Compile Include="Assets\SAMPLE\Ido.cs" />
     <Compile Include="Assets\SAMPLE\kaiten.cs" />
     <Compile Include="Assets\SAMPLE\Rimocon.cs" />
     <Compile Include="Assets\SAMPLE\StartKaitenn.cs" />
-    <Compile Include="Assets\SAMPLE\Tekinotama.cs" />
     <Compile Include="Assets\UnityChan\Scripts\AutoBlink.cs" />
     <Compile Include="Assets\UnityChan\Scripts\CameraController.cs" />
     <Compile Include="Assets\UnityChan\Scripts\FaceUpdate.cs" />
