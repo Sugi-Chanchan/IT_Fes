@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Tekinotama : MonoBehaviour {
-    //staticと書かれたものは後で出てくるAttackというスクリプトに渡すための情報です
+   //JibunとsokudoはAttackという別のスクリプトに渡します
     public GameObject Teki;
     public GameObject Jibun;
     public GameObject Tama;
@@ -13,8 +13,8 @@ public class Tekinotama : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+        //sceneに出したときに識別できるようにタグをつけておきます。
         Tama.tag = "tama";
-        //Attackというスクリプトを弾に付加させています
         InvokeRepeating("Attack", 0.1f, Kankaku);
 
 
@@ -28,8 +28,10 @@ public class Tekinotama : MonoBehaviour {
     void Attack()
     {
         Instantiate(Tama, Teki.transform.position, Quaternion.identity);
+        //tamaというタグがついたオブジェクトを探してAttackというスクリプトを付加させて、最後にタグを外します。
         GameObject ob=GameObject.FindGameObjectWithTag("tama");
         ob.AddComponent<chase>();
+        //このnonはただtamaのタグを外すためだけにつけたタグです
         ob.tag = "non";
     }
 }
