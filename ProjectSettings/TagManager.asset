@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Obstacle
   - Enemy
+  - tamadashi
+  - tama
+  - non
   layers:
   - Default
   - TransparentFX
