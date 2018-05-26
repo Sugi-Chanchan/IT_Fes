@@ -6,6 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/iroiro/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/scene/ModeSelect_air.unity
+    guid: 9f3ab37b2d8232040845f134a8bb461c
+  - enabled: 1
+    path: Assets/scene/Result_air.unity
+    guid: 54115d43b3accb843b8ba490e7d34408
+  - enabled: 1
+    path: Assets/scene/Start_air.unity
+    guid: edb24cd6ea22bf848ba47d8b47e4162b
   m_configObjects: {}
