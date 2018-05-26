@@ -10,7 +10,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>
     </RootNamespace>
-    <ProjectGuid>{6A67A0A4-F3CC-2542-B808-CA3DA3C8B552}</ProjectGuid>
+    <ProjectGuid>{742601CC-3439-4BA4-4304-EE0FD850F2E0}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -80,18 +80,11 @@
     <Compile Include="Assets\iroiro\Scripts\Tekinotama.cs" />
     <Compile Include="Assets\iroiro\Scripts\Tester.cs" />
     <Compile Include="Assets\iroiro\Scripts\Variables.cs" />
-<<<<<<< HEAD
     <Compile Include="Assets\SAMPLE\Ido.cs" />
     <Compile Include="Assets\SAMPLE\kaiten.cs" />
     <Compile Include="Assets\SAMPLE\Obstacle.cs" />
     <Compile Include="Assets\SAMPLE\Rimocon.cs" />
     <Compile Include="Assets\SAMPLE\StartKaitenn.cs" />
-=======
-    <Compile Include="Assets\Sample\Ido.cs" />
-    <Compile Include="Assets\Sample\kaiten.cs" />
-    <Compile Include="Assets\Sample\Rimocon.cs" />
-    <Compile Include="Assets\Sample\StartKaitenn.cs" />
->>>>>>> e132696816e9efadb6f0a26efbf00aaf60f13aec
     <Compile Include="Assets\UnityChan\Scripts\AutoBlink.cs" />
     <Compile Include="Assets\UnityChan\Scripts\CameraController.cs" />
     <Compile Include="Assets\UnityChan\Scripts\FaceUpdate.cs" />
@@ -121,10 +114,10 @@
     <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hada.shader" />
     <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hada_blend.shader" />
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>D:/jack/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/Users/Asato Tanigawa/Documents/IT_Fes/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>D:/jack/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/Asato Tanigawa/Documents/IT_Fes/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -322,13 +315,13 @@
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Analytics">
-      <HintPath>C:/Users/RyoMa/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
+      <HintPath>C:/Users/Asato Tanigawa/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Purchasing">
-      <HintPath>C:/Users/RyoMa/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.purchasing@2.0.1/UnityEngine.Purchasing.dll</HintPath>
+      <HintPath>C:/Users/Asato Tanigawa/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.purchasing@2.0.1/UnityEngine.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.StandardEvents">
-      <HintPath>C:/Users/RyoMa/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/Asato Tanigawa/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unity/mscorlib.dll</HintPath>
