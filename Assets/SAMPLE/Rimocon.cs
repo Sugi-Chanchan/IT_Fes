@@ -13,7 +13,6 @@ public class Rimocon : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        //Space.worldを使うと絶対的な座標を使えるので便利です
         if (Input.GetKey(KeyCode.UpArrow))
         {
             transform.Translate(new Vector3(0, sokudo, 0), Space.World);

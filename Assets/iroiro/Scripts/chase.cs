@@ -11,19 +11,15 @@ public class chase : MonoBehaviour {
     
 	// Use this for initialization
 	void Start () {
-    //タグからオブジェクトを探します
         aa = GameObject.FindGameObjectWithTag("tamadashi");
-        //GetConponentで他のオブジェクトに入った値を拾うことができます
         time = aa.GetComponent<Tekinotama>().Sokudo;
         me = aa.GetComponent<Tekinotama>().Jibun;
-        //「相手の座標-自分の座標」で追尾機能を実装してます。
         go = new Vector3((me.transform.position.x - transform.position.x)*time/100, (me.transform.position.y - transform.position.y)*time/100, (me.transform.position.z - transform.position.z)*time/100);
         a = go.z;
     }
 	
 	// Update is called once per frame
 	void Update () {
-
         transform.Translate(go,Space.World);
 	}
 }
