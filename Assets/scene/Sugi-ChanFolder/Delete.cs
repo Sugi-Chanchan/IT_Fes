@@ -11,8 +11,8 @@ public class Delete : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        float add = transform.position.x + transform.position.y + transform.position.z;
-        if (add > 70)
+        float add = Mathf.Sqrt(transform.position.x*transform.position.x + transform.position.y*transform.position.y + transform.position.z*transform.position.z);
+        if (add > 100)
         {
             Destroy(gameObject);
         }

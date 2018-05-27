@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GruRot : MonoBehaviour {
+public class RotRunE : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
@@ -12,17 +12,16 @@ public class GruRot : MonoBehaviour {
         {
             pos.x = 0.01f;
         }
-        rot.x = 90;
         float aa = Mathf.Asin(pos.x / Mathf.Sqrt(pos.x * pos.x + pos.z * pos.z));
         float aaa = aa * 180 / Mathf.PI;
         if (pos.z >= 0)
         {
-        rot.z -= aaa;
+            rot.y -= aaa;
 
         }
         else
         {
-            rot.z -= 180 - aaa;
+            rot.y -= 180 - aaa;
         }
         transform.Rotate(rot);
     }

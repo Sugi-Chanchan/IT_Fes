@@ -16,10 +16,6 @@ public class mkmkrotate : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         transform.Translate(new Vector3(0, 0, 0.1f));
-        float add = transform.position.x + transform.position.y + transform.position.z;
-        if (add > 50)
-        {
-            Destroy(gameObject);
-        }
+       
     }
 }

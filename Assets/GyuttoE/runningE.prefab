@@ -2320,7 +2320,7 @@ GameObject:
   - component: {fileID: 114584683797383776}
   m_Layer: 0
   m_Name: runningE
-  m_TagString: tama
+  m_TagString: non
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
