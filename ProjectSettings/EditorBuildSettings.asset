@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/iroiro/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/scene/Sugi-ChanFolder/GameOver222.unity
+    guid: bf40c41df5a0bfd4190140d2ff8b33d3
   m_configObjects: {}

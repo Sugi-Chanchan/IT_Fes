@@ -13,6 +13,8 @@ public class Tekinotama : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+        Teki = GameObject.FindGameObjectWithTag("Enemy");
+        Jibun = GameObject.FindGameObjectWithTag("Player");
         Tama.tag = "tama";
         //Attackというスクリプトを弾に付加させています
         InvokeRepeating("Attack", 0.1f, Kankaku);
