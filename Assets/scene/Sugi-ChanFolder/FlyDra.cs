@@ -14,6 +14,7 @@ public class FlyDra : MonoBehaviour {
         en = GameObject.FindGameObjectWithTag("Enemy");
         transform.Rotate(pl.transform.rotation.eulerAngles);
         Invoke("Rot", 20);
+
 	}
 	
 	// Update is called once per frame

@@ -22,7 +22,7 @@ public class Obitcontroller : MonoBehaviour {
         {
             transform.RotateAround(enemy.transform.position, new Vector3(0, 1, 0), speed);
         }
-        if (Input.GetKey(KeyCode.UpArrow)&&transform.position.y<10)
+        if (Input.GetKey(KeyCode.UpArrow)&&transform.position.y<11)
         {
             transform.Translate(new Vector3(0, sp, 0));
         }

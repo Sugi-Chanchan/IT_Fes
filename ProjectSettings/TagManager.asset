@@ -10,6 +10,9 @@ TagManager:
   - tama
   - non
   - Norm
+  - WS
+  - JACKUN
+  - FD
   layers:
   - Default
   - TransparentFX

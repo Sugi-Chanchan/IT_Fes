@@ -131,7 +131,7 @@ GameObject:
   - component: {fileID: 136517501476280834}
   m_Layer: 0
   m_Name: FlyDraEEE
-  m_TagString: non
+  m_TagString: FD
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
