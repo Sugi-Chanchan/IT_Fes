@@ -11,11 +11,11 @@ public class HardRandomSplash : MonoBehaviour {
       
         if (Bullet_easy.bullet_number == 3)
         {
-            InvokeRepeating("Bull", 0.1f, 1f);
+            InvokeRepeating("Bull", 0.1f, 0.5f);
         }
         if (Bullet_easy.bullet_number == 5)
         {
-            InvokeRepeating("Bull", 0.03f, 0.02f);
+            InvokeRepeating("Bull", 0.03f, 0.01f);
         }
 
 
