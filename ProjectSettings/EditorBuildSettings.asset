@@ -8,4 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/scene/Sugi-ChanFolder/GameOver222.unity
     guid: bf40c41df5a0bfd4190140d2ff8b33d3
+  - enabled: 1
+    path: Assets/scene/Sugi-ChanFolder/SSSSAMPLE.unity
+    guid: 6b6f8d5e50dd2114fb61e64076099067
   m_configObjects: {}
