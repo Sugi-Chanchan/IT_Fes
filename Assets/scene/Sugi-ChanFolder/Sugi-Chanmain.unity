@@ -6905,6 +6905,7 @@ GameObject:
   - component: {fileID: 1911741720}
   - component: {fileID: 1911741721}
   - component: {fileID: 1911741723}
+  - component: {fileID: 1911741724}
   m_Layer: 0
   m_Name: WorldSystem
   m_TagString: WS
@@ -6976,7 +6977,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3ac40f70c116b249891614504f02e0a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  modenumber: 5
+  modenumber: 3
 --- !u!114 &1911741723
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6993,6 +6994,18 @@ MonoBehaviour:
   Tama: {fileID: 1845850206638114, guid: 0196d7417ff5df343977230e62615262, type: 2}
   Kankaku: 1
   Sokudo: 1
+--- !u!114 &1911741724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1911741717}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bf3b4cab20f2694ab35a2ed188eb21b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosion: {fileID: 1459848278534536, guid: 1333c48158a698b4bbb259f6ec4b7071, type: 2}
 --- !u!1 &1938680830 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100004, guid: 89d5273efb5f9544eb7d84a88a172524, type: 3}
@@ -7593,11 +7606,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 2000000, guid: 89d5273efb5f9544eb7d84a88a172524, type: 3}
       propertyPath: near clip plane
-      value: 18
+      value: 0.01
       objectReference: {fileID: 0}
     - target: {fileID: 10800000, guid: 89d5273efb5f9544eb7d84a88a172524, type: 3}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000000, guid: 89d5273efb5f9544eb7d84a88a172524, type: 3}
+      propertyPath: field of view
+      value: 22
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 89d5273efb5f9544eb7d84a88a172524, type: 3}
