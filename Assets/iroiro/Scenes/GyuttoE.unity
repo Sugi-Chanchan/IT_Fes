@@ -203,13 +203,13 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 396426780}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: eaafeccc37b5a894a9fa47981a8e949f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rock: {fileID: 0}
-  bigrock: {fileID: 1051780455850644, guid: d596631d2a1b9b5419d3af813f76a67c, type: 2}
+  rock: {fileID: 1051780455850644, guid: d596631d2a1b9b5419d3af813f76a67c, type: 2}
+  bigrock: {fileID: 0}
   naiagara: {fileID: 0}
   largeblock: {fileID: 0}
   spon: {fileID: 862978126}
@@ -234,7 +234,7 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 396426780}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e26ea6e7b1fb8cf43968f4b1c3856d5a, type: 3}
   m_Name: 
