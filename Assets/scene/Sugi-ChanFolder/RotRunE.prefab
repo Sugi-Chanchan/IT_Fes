@@ -894,6 +894,7 @@ GameObject:
   - component: {fileID: 114394811091908750}
   - component: {fileID: 54815115152610660}
   - component: {fileID: 65542066320905206}
+  - component: {fileID: 114680331946335406}
   m_Layer: 0
   m_Name: RotRunE
   m_TagString: non
@@ -5993,7 +5994,7 @@ Light:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1919963597600344}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 8
   m_Type: 2
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -6043,6 +6044,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 148f5fe8e2d0b5b47a8cb791e014dfe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114680331946335406
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1263956568058464}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9806ceac5f17026418b22b508fc86a6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!137 &137243954616185544
