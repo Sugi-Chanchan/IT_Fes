@@ -11,9 +11,10 @@ public class RockSpone : MonoBehaviour {
     public GameObject spon;
 
 
-	void Start () {
+
+    void Start () {
         //0.03秒に一回　0.1秒間メソッド（処理）"N"を実行する操作を繰り返す
-        InvokeRepeating("Spone", 0.1f, 0.03f);
+        InvokeRepeating("Spone", 0.1f, Bullet_easy.bullet_number*0.01f);
         InvokeRepeating("BigSpone", 0.1f, 0.04f);
         InvokeRepeating("LargeSpone", 0.1f, 15f);
 

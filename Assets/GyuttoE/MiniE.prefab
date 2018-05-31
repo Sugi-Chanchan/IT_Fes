@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4430084307292060}
   - component: {fileID: 95574046287191366}
   m_Layer: 0
-  m_Name: GE
+  m_Name: MiniE
   m_TagString: non
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
