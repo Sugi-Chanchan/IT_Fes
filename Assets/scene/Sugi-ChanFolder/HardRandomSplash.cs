@@ -8,15 +8,16 @@ public class HardRandomSplash : MonoBehaviour {
     // Use this for initialization
     void Start()
     {
-       
+      
         if (Bullet_easy.bullet_number == 3)
         {
             InvokeRepeating("Bull", 0.1f, 1f);
         }
         if (Bullet_easy.bullet_number == 5)
         {
-            InvokeRepeating("Bull", 0.03f, 0.025f);
+            InvokeRepeating("Bull", 0.03f, 0.02f);
         }
+
 
     }
 
@@ -29,6 +30,5 @@ public class HardRandomSplash : MonoBehaviour {
     {
         Vector3 a = new Vector3(-1 + Random.value * 2, Random.value * 14, -1 + Random.value * 2);
         Instantiate(bul, a, Quaternion.identity);
-        Debug.Log("a");
     }
 }

@@ -6,13 +6,14 @@ public class Delete : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+        InvokeRepeating("Judge", 0.1f, 1);
 		
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void Judge() {
         float add = Mathf.Sqrt(transform.position.x*transform.position.x + transform.position.y*transform.position.y + transform.position.z*transform.position.z);
-        if (add > 100)
+        if (add > 62)
         {
             Destroy(gameObject);
         }
