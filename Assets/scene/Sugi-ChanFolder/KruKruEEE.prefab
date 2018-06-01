@@ -55,8 +55,8 @@ MeshRenderer:
   m_GameObject: {fileID: 1781828950406866}
   m_Enabled: 1
   m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -154,6 +154,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9806ceac5f17026418b22b508fc86a6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  test1: 0
 --- !u!136 &136218331951067190
 CapsuleCollider:
   m_ObjectHideFlags: 1

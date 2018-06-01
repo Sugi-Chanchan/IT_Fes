@@ -20,7 +20,6 @@ public class EnemyRotate : MonoBehaviour {
 
     // Update is called once per frame
     void Update () {
-        Debug.Log(Time.deltaTime);
         angp = player.transform.rotation.eulerAngles.y;
         angn = gameObject.transform.rotation.eulerAngles.y;
         if (angp >= angn)
