@@ -44,7 +44,7 @@ RenderSettings:
 LightmapSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 11
-  m_GIWorkflowMode: 0
+  m_GIWorkflowMode: 1
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -89,7 +89,8 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaIndirect: 2
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ShowResolutionOverlay: 1
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000002, guid: 002813357d14c4941bf5c48929924906,
+    type: 2}
   m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
@@ -531,7 +532,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2edfa665fc4b98f498a2692a1e88db4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bullet_number: 1
 --- !u!1 &803110111
 GameObject:
   m_ObjectHideFlags: 0
@@ -666,7 +666,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c640cb2123cf6394fa08cc2b632029c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  easy_button: {fileID: 792977899}
 --- !u!1 &806512006
 GameObject:
   m_ObjectHideFlags: 0
@@ -1054,7 +1053,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13741ff1ecfb7c548b31f6a0b64272de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  easy_button: {fileID: 792977899}
 --- !u!1 &1725780359
 GameObject:
   m_ObjectHideFlags: 0
@@ -1265,7 +1263,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41a2027438576a940b522edf6fbd269b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  easy_button: {fileID: 792977899}
 --- !u!1 &1798997367
 GameObject:
   m_ObjectHideFlags: 0
@@ -1324,13 +1321,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1798997367}
-  m_LocalRotation: {x: 0.17298737, y: 0.085831694, z: -0.015134441, w: 0.98106027}
+  m_LocalRotation: {x: -0.42101005, y: 0.07898997, z: 0.03683362, w: 0.90285903}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 20, y: 10, z: 0}
+  m_LocalEulerAnglesHint: {x: -50, y: 10, z: 0}
 --- !u!1 &2138727637
 GameObject:
   m_ObjectHideFlags: 0
