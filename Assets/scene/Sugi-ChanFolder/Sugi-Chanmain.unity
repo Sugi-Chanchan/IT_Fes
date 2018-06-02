@@ -5132,7 +5132,7 @@ AudioSource:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1559130112}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 531763b11ebd7b343b54dca37d04c876, type: 3}
@@ -6852,6 +6852,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bul: {fileID: 1913679290839234, guid: 254926370f4223f48aaa43a37b3044e8, type: 2}
+  mut: {fileID: 1630117559302766, guid: d25d21ca50cb11842b07398164a50e4c, type: 2}
+  ira: {fileID: 1074313040632360, guid: c9442e03ad8e2ea49b0b4df63d04e2a2, type: 2}
+  mag: {fileID: 1240028479429378, guid: 80970191d3c12f04d9c252f3cec444f2, type: 2}
+  niy: {fileID: 1868425140285626, guid: e65f6d46d9167a54cb1d42673549b28f, type: 2}
 --- !u!114 &1911741722
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6863,7 +6867,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3ac40f70c116b249891614504f02e0a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  modenumber: 5
+  modenumber: 3
 --- !u!114 &1911741723
 MonoBehaviour:
   m_ObjectHideFlags: 0

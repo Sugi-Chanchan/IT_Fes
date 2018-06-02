@@ -1404,7 +1404,6 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4274414374217908}
-  - component: {fileID: 20567433528182924}
   m_Layer: 0
   m_Name: Camera
   m_TagString: Untagged
@@ -2740,7 +2739,6 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4149383860710436}
-  - component: {fileID: 108394694227821222}
   m_Layer: 0
   m_Name: Lamp
   m_TagString: Untagged
@@ -5906,42 +5904,6 @@ Transform:
   m_Father: {fileID: 4086801711336384}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!20 &20567433528182924
-Camera:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1419789549197160}
-  m_Enabled: 0
-  serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
-  m_NormalizedViewPortRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
-  near clip plane: 0.099999994
-  far clip plane: 100
-  field of view: 28.841547
-  orthographic: 0
-  orthographic size: 0.0025713868
-  m_Depth: 0
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RenderingPath: -1
-  m_TargetTexture: {fileID: 0}
-  m_TargetDisplay: 0
-  m_TargetEye: 3
-  m_HDR: 1
-  m_AllowMSAA: 1
-  m_AllowDynamicResolution: 0
-  m_ForceIntoRT: 0
-  m_OcclusionCulling: 1
-  m_StereoConvergence: 10
-  m_StereoSeparation: 0.022
 --- !u!65 &65542066320905206
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -5972,42 +5934,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!108 &108394694227821222
-Light:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1919963597600344}
-  m_Enabled: 0
-  serializedVersion: 8
-  m_Type: 2
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1
-  m_Range: 10
-  m_SpotAngle: 30
-  m_CookieSize: 10
-  m_Shadows:
-    m_Type: 2
-    m_Resolution: -1
-    m_CustomResolution: -1
-    m_Strength: 1
-    m_Bias: 0.05
-    m_NormalBias: 0.4
-    m_NearPlane: 0.2
-  m_Cookie: {fileID: 0}
-  m_DrawHalo: 0
-  m_Flare: {fileID: 0}
-  m_RenderMode: 0
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_Lightmapping: 4
-  m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 1
-  m_ColorTemperature: 6570
-  m_UseColorTemperature: 0
-  m_ShadowRadius: 0
-  m_ShadowAngle: 0
 --- !u!114 &114394811091908750
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6041,6 +5967,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9806ceac5f17026418b22b508fc86a6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  test1: 0
 --- !u!137 &137243954616185544
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1
