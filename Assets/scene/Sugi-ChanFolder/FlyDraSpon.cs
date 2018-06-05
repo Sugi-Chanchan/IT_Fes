@@ -18,6 +18,7 @@ public class FlyDraSpon : MonoBehaviour {
 	}
     void Appear()
     { Vector3 a = player.transform.position;
+        a.x = a.x * 0.9f;a.z = a.z * 0.9f;
         a.y += 20;
         Instantiate(flydra, a, Quaternion.identity);
     }

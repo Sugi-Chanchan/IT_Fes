@@ -21,7 +21,7 @@ public class FlyDra : MonoBehaviour {
 	void Update () {
         if (transform.position.y > -1)
         {
-            transform.Translate(new Vector3(0, -0.1f, 0));
+            transform.Translate(new Vector3(0, -0.03f, 0));
         }
         if (r)
         {

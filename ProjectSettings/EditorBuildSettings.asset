@@ -11,4 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/scene/Sugi-ChanFolder/SSSSAMPLE.unity
     guid: 6b6f8d5e50dd2114fb61e64076099067
+  - enabled: 1
+    path: Assets/scene/Sugi-ChanFolder/Clear.unity
+    guid: 4a03b0177573d224290e9d83d705b1dc
+  - enabled: 1
+    path: Assets/scene/Sugi-ChanFolder/Sugi-Chanmain.unity
+    guid: f98dc718f7df0a345b7e768dc4e1c3bd
   m_configObjects: {}

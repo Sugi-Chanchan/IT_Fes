@@ -24,7 +24,7 @@ public class HardMode : MonoBehaviour
         if (Bullet_easy.bullet_number == 1)
         {
             en.GetComponent<IntervalSpon>().kankaku = 0;
-            Invoke("Fradra", 20);
+            Invoke("Fradra3", 20);
             td.GetComponent<Tekinotama>().Kankaku = 3;
             en.transform.localScale = new Vector3(1, 1, 1);
             pl.GetComponent<BoxCollider>().size = new Vector3(1f, 1f, 1f);
@@ -38,7 +38,7 @@ public class HardMode : MonoBehaviour
         {
             en.transform.localScale = new Vector3(1, 1, 1);
             en.GetComponent<RandomSplash>().interval = 2f;
-            td.GetComponent<Tekinotama>().Kankaku = 2;
+            td.GetComponent<Tekinotama>().Kankaku = 1;
             en.GetComponent<IntervalSpon>().kankaku = 2;
             pl.GetComponent<BoxCollider>().size = new Vector3(1f, 1f, 1f);
             jk.transform.localScale = new Vector3(100, 100, 100);
@@ -83,7 +83,7 @@ public class HardMode : MonoBehaviour
     void Fradra()
     {
         fd = GameObject.FindGameObjectWithTag("FD");
-        fd.GetComponent<FlyDra>().speed = 0.3f;
+        fd.GetComponent<FlyDra>().speed = 0.1f;
 
     }
     void Fradra1()
@@ -95,5 +95,10 @@ public class HardMode : MonoBehaviour
     {
         fd = GameObject.FindGameObjectWithTag("FD");
         fd.GetComponent<FlyDra>().speed = 0.6f;
+    }
+    void Fradra3()
+    {
+        fd = GameObject.FindGameObjectWithTag("FD");
+        fd.GetComponent<FlyDra>().speed = 0.3f;
     }
 }
