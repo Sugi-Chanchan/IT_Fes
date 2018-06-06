@@ -9,7 +9,7 @@ public class Game_Start : MonoBehaviour
 
     public void Push()
     {
-        SceneManager.LoadScene("syuga- main");
+        SceneManager.LoadScene("GyuttoE");
     }
 
 }
