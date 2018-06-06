@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/scene/Start_air.unity
+    guid: edb24cd6ea22bf848ba47d8b47e4162b
+  - enabled: 1
     path: Assets/scene/Sugi-ChanFolder/GameOver222.unity
     guid: bf40c41df5a0bfd4190140d2ff8b33d3
   - enabled: 1
@@ -20,9 +23,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/scene/Result_air.unity
     guid: 54115d43b3accb843b8ba490e7d34408
-  - enabled: 1
-    path: Assets/scene/Start_air.unity
-    guid: edb24cd6ea22bf848ba47d8b47e4162b
   - enabled: 1
     path: Assets/iroiro/Scenes/GyuttoE.unity
     guid: 442f2fb0c45e0634e8f1f609cc391d85
