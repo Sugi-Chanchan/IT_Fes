@@ -2,24 +2,28 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class Winner : MonoBehaviour {
 
-    public GameObject explosion;
-    GameObject pl;
+    int count = 60;
+    public Text text;
 	// Use this for initialization
 	void Start () {
-        Invoke("Win", 60);
+        InvokeRepeating("Co", 1, 1);
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		
+        if (count == 0)
+        {
+            SceneManager.LoadScene("SSSSample");
+        }
 	}
-    void Win()
+    void Co()
     {
-        SceneManager.LoadScene("SSSSample");
-
+        count--;
+        text.text = "" + count;
 
        
     }

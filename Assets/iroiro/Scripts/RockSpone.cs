@@ -45,6 +45,7 @@ public class RockSpone : MonoBehaviour {
     void BigSpone()
     {
         Instantiate(bigrock, new Vector3(-20 + 40 * Random.value, -20 + 40 * Random.value, spon.transform.position.z-10), Quaternion.identity);
+       
     }
     void N()
     {
