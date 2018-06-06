@@ -14,11 +14,11 @@ public class HpBarCtrl : MonoBehaviour
 
     void Update()
     {
-        // HP上昇
+        // 
         if (_hp == 0)
         {
             // 最大を超えたら0に戻す
-            _hp = 100;
+            _hp = 500;
         }
 
         // HPゲージに値を設定

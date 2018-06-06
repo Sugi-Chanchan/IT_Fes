@@ -15,10 +15,11 @@ public class HP_set : MonoBehaviour {
 	void Update () {
 		
 	}
-    private void OnTriggerEnter(Collider Bullet)
+    void OnTriggerEnter(Collider Bullet)
     {
-        if(Bullet.name=="Bullet")
-        {
+        
+        if(Bullet.name!="Bullet")
+        {Debug.Log("atari");
             HP.GetComponent<HpBarCtrl>()._hp -= 1;
             
         }
