@@ -1051,7 +1051,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bul: {fileID: 1913679290839234, guid: 254926370f4223f48aaa43a37b3044e8, type: 2}
-  interval: 0.2
+  interval: 0.5
 --- !u!114 &347577775
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6159,7 +6159,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1911741717}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d3ac40f70c116b249891614504f02e0a, type: 3}
   m_Name: 

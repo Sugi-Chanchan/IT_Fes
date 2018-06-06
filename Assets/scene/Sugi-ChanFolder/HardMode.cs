@@ -99,6 +99,6 @@ public class HardMode : MonoBehaviour
     void Fradra3()
     {
         fd = GameObject.FindGameObjectWithTag("FD");
-        fd.GetComponent<FlyDra>().speed = 0.3f;
+        fd.GetComponent<FlyDra>().speed = 0.2f;
     }
 }
