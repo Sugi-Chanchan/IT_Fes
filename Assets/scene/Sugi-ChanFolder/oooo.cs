@@ -7,7 +7,7 @@ public class oooo : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        Invoke("OOO", 2.5f);
+        Invoke("OOO", 1.7f);
 	}
 	
 	// Update is called once per frame
