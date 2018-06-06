@@ -49,7 +49,7 @@ public class HardMode : MonoBehaviour
         }
         if (Bullet_easy.bullet_number == 3)
         {
-            en.GetComponent<RandomSplash>().interval = 0.6f;
+            en.GetComponent<RandomSplash>().interval = 1.2f;
             en.transform.localScale = new Vector3(2, 2, 2);
             td.GetComponent<Tekinotama>().Kankaku = 0.1f;
             pl.GetComponent<BoxCollider>().size = new Vector3(1f, 1f, 1f);
