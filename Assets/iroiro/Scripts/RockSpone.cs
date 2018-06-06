@@ -14,9 +14,16 @@ public class RockSpone : MonoBehaviour {
 
     void Start () {
         //0.03秒に一回　0.1秒間メソッド（処理）"N"を実行する操作を繰り返す
-       
-
-        InvokeRepeating("BigSpone", 0.1f, 0.1f/Bullet_easy.bullet_number);
+        int a;
+        if (Bullet_easy.bullet_number==5)
+        {
+            a = 4;
+        }
+        else
+        {
+            a = Bullet_easy.bullet_number;
+        }
+        InvokeRepeating("BigSpone", 0.1f, 0.1f/a);
 
        
 
