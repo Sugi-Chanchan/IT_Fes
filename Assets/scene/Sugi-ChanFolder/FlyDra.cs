@@ -13,7 +13,7 @@ public class FlyDra : MonoBehaviour {
         pl = GameObject.FindGameObjectWithTag("Player");
         en = GameObject.FindGameObjectWithTag("Enemy");
         transform.Rotate(pl.transform.rotation.eulerAngles);
-        Invoke("Rot", 20);
+        
 
 	}
 	

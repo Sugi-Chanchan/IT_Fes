@@ -10,6 +10,7 @@ public class FlyDraSpon : MonoBehaviour {
     void Start () {
         player = GameObject.FindGameObjectWithTag("Player");
         Invoke("Appear", 10);
+        Invoke("Appear", 30);
     }
 	
 	// Update is called once per frame
