@@ -26,6 +26,7 @@ GameObject:
   - component: {fileID: 114356031803770990}
   - component: {fileID: 114278550375387764}
   - component: {fileID: 64719076247624382}
+  - component: {fileID: 114937469402143108}
   m_Layer: 0
   m_Name: IrattoE
   m_TagString: tama1
@@ -153,3 +154,14 @@ MonoBehaviour:
   x: 0
   y: 0.5
   z: 0
+--- !u!114 &114937469402143108
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1074313040632360}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3f6a7c701c394f4380447c6308c0538, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
