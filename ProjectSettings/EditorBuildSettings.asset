@@ -38,4 +38,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/scene/Sugi-ChanFolder/S.unity
     guid: b537fcae86bf0ad498764918b7d861fe
+  - enabled: 1
+    path: Assets/scene/Credit.unity
+    guid: 16888c28a35d2bf4a9088dadf1f21cb6
   m_configObjects: {}
