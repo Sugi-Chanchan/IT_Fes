@@ -35,13 +35,12 @@ public class controlla : MonoBehaviour
             transform.Translate(new Vector3(-sokudo, 0, 0), Space.World);
         }
         intervalTime += Time.deltaTime;
-        if (Input.GetKey("space"))
-        {
+       
             if (intervalTime >= 0.1f)
             {
                 intervalTime = 0.0f;
                 Instantiate(Prefab, new Vector3(transform.position.x, transform.position.y, transform.position.z+5), Quaternion.identity);
             }
-        }
+        
     }
 }
