@@ -25,12 +25,12 @@ public class HardMode : MonoBehaviour
         {
             en.GetComponent<IntervalSpon>().kankaku = 0;
             Invoke("Fradra3", 20);
-            td.GetComponent<Tekinotama>().Kankaku = 3;
+            td.GetComponent<Tekinotama>().Kankaku = 8;
             en.transform.localScale = new Vector3(1, 1, 1);
             pl.GetComponent<BoxCollider>().size = new Vector3(1f, 1f, 1f);
-            jk.transform.localScale = new Vector3(100, 100, 100);
-            pl.GetComponent<Obitcontroller>().speed = 1f;
-            en.GetComponent<RandomSplash>().interval = 3f;
+            jk.transform.localScale = new Vector3(70, 70, 70);
+            pl.GetComponent<Obitcontroller>().speed = 0.8f;
+            en.GetComponent<RandomSplash>().interval = 9f;
             cmr.farClipPlane = 200;
 
         }
@@ -68,7 +68,6 @@ public class HardMode : MonoBehaviour
             pl.GetComponent<BoxCollider>().size = new Vector3(0.5f, 0.5f, 0.5f);
             jk.transform.localScale = new Vector3(50, 50, 50);
             pl.GetComponent<Obitcontroller>().speed = 0.5f;
-            Invoke("Fradra", 20);
             cmr.farClipPlane = 200;
 
 
@@ -82,23 +81,19 @@ public class HardMode : MonoBehaviour
     }
     void Fradra()
     {
-        fd = GameObject.FindGameObjectWithTag("FD");
-        fd.GetComponent<FlyDra>().speed = 0.1f;
+       
 
     }
     void Fradra1()
     {
-        fd = GameObject.FindGameObjectWithTag("FD");
-        fd.GetComponent<FlyDra>().speed = 0.3f;
+        
     }
     void Fradra2()
     {
-        fd = GameObject.FindGameObjectWithTag("FD");
-        fd.GetComponent<FlyDra>().speed = 0.4f;
+       
     }
     void Fradra3()
     {
-        fd = GameObject.FindGameObjectWithTag("FD");
-        fd.GetComponent<FlyDra>().speed = 0.2f;
+      
     }
 }

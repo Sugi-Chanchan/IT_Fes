@@ -8,9 +8,13 @@ public class FlyDraSpon : MonoBehaviour {
     GameObject player;
     // Use this for initialization
     void Start () {
+        if (Bullet_easy.bullet_number != 1)
+        {
         player = GameObject.FindGameObjectWithTag("Player");
         Invoke("Appear", 10);
         Invoke("Appear", 30);
+
+        }
  
     }
 	
